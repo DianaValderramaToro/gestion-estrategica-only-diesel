@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluación e Implementación · Gestión Estratégica · Only Diesel S.A.S.</title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+
+<nav>
+    <div class="nav-brand"><span class="dot"></span> Only Diesel S.A.S.</div>
+    <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" onclick="closeMenu()">Inicio</a></li>
+        <li><a href="equipo.html" onclick="closeMenu()">Equipo Consultor</a></li>
+        <li><a href="organizacion.html" onclick="closeMenu()">Organización</a></li>
+        <li><a href="sector.html" onclick="closeMenu()">Sector Económico</a></li>
+        <li><a href="analisis.html" onclick="closeMenu()">Análisis Estratégico</a></li>
+        <li><a href="formulacion.html" onclick="closeMenu()">Formulación y Selección</a></li>
+        <li><a href="evaluacion.html" class="active" onclick="closeMenu()">Evaluación e Implementación</a></li>
+        <li><a href="referencias.html" onclick="closeMenu()">Referencias</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()" aria-label="Abrir menú"><span></span><span></span><span></span></div>
+</nav>
+
+<header class="hero hero-sub">
+    <div class="hero-badge">06 · Ejecución</div>
+    <h1>Evaluación e Implementación</h1>
+    <p>Cronograma del proceso y fase de evaluación e implementación de la estrategia.</p>
+</header>
+
+<section id="cronograma">
+    <div class="section-header">
+        <span class="section-tag">Planeación</span>
+        <h2>Cronograma del Proceso</h2>
+    </div>
+
+    <div class="figure-block">
+        <img src="assets/img/cronograma-proceso.png" alt="Cronograma del proceso del proyecto consultor">
+        <p class="figure-caption">Figura 1. Elaboración propia. (2026)</p>
+    </div>
+</section>
+
+<section class="alt" id="implementacion">
+    <div class="section-header">
+        <span class="section-tag">En desarrollo</span>
+        <h2>Evaluación e Implementación de la Estrategia</h2>
+        <p>El contenido de la evaluación e implementación de la estrategia se construye a partir de la <a href="formulacion.html">Formulación y Selección de la Estrategia</a> y será publicado con las próximas entregas del proyecto consultor.</p>
+    </div>
+</section>
+
+<footer>
+    <p>Reporte Digital &nbsp;·&nbsp; <strong>Gestión Estratégica</strong> &nbsp;·&nbsp; CEIPA Business School &nbsp;·&nbsp; 2026</p>
+    <p>Empresa analizada: <strong>Only Diesel S.A.S.</strong> — Itagüí, Antioquia</p>
+</footer>
+
+<script>
+    function toggleMenu() { document.getElementById('navLinks').classList.toggle('open'); }
+    function closeMenu() { document.getElementById('navLinks').classList.remove('open'); }
+</script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis Estratégico · Gestión Estratégica · Only Diesel S.A.S.</title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+
+<nav>
+    <div class="nav-brand"><span class="dot"></span> Only Diesel S.A.S.</div>
+    <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" onclick="closeMenu()">Inicio</a></li>
+        <li><a href="equipo.html" onclick="closeMenu()">Equipo Consultor</a></li>
+        <li><a href="organizacion.html" onclick="closeMenu()">Organización</a></li>
+        <li><a href="sector.html" onclick="closeMenu()">Sector Económico</a></li>
+        <li><a href="analisis.html" class="active" onclick="closeMenu()">Análisis Estratégico</a></li>
+        <li><a href="formulacion.html" onclick="closeMenu()">Formulación y Selección</a></li>
+        <li><a href="evaluacion.html" onclick="closeMenu()">Evaluación e Implementación</a></li>
+        <li><a href="referencias.html" onclick="closeMenu()">Referencias</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()" aria-label="Abrir menú"><span></span><span></span><span></span></div>
+</nav>
+
+<header class="hero hero-sub">
+    <div class="hero-badge">04 · Diagnóstico</div>
+    <h1>Análisis Estratégico</h1>
+    <p>Aplicación de las herramientas de análisis estratégico a Only Diesel S.A.S.</p>
+</header>
+
+<!-- ═══════════ EVALUACIÓN ESTRATÉGICA DE RECURSOS Y CAPACIDADES ═══════════ -->
+<section id="recursos-capacidades">
+    <div class="section-header">
+        <span class="section-tag">Recursos y capacidades</span>
+        <h2>Evaluación Estratégica de Recursos y Capacidades</h2>
+        <p>Aplicación de la herramienta Evaluación Estratégica de Recursos y Capacidades y análisis de los resultados.</p>
+    </div>
+
+    <div class="figure-block">
+        <img src="assets/img/evaluacion-estrategica-capacidades.png" alt="Evaluación Estratégica de Recursos y Capacidades de Only Diesel S.A.S.">
+        <p class="figure-caption">Figura 3. Elaboración propia con base en la información institucional de Only Diesel S.A.S y el análisis estratégico realizado por el equipo de trabajo (2026)</p>
+    </div>
+</section>
+
+<!-- ═══════════ HERRAMIENTAS DESCARGABLES ═══════════ -->
+<section class="alt" id="herramientas">
+    <div class="section-header">
+        <span class="section-tag">Herramientas</span>
+        <h2>Herramientas de Análisis Estratégico</h2>
+        <p>Documentos de trabajo aplicados por el equipo consultor. Cada archivo incluye la herramienta diligenciada y el análisis de sus resultados.</p>
+    </div>
+
+    <div class="downloads-area" style="max-width:900px;">
+        <div class="company-card gap-block">
+            <p class="block-title">Perfil Estratégico Only Diesel</p>
+            <p class="company-desc">Herramienta de perfil estratégico del entorno y análisis de resultados aplicada a Only Diesel S.A.S.</p>
+            <div class="downloads-list">
+                <a class="btn-download" href="descargas/4-perfil-estrategico-entorno-only-diesel.xlsx" download>⬇ Descargar: Perfil Estratégico Only Diesel (Excel)</a>
+            </div>
+        </div>
+
+        <div class="company-card gap-block">
+            <p class="block-title">Diamante de Porter</p>
+            <p class="company-desc">Herramienta Diamante de Porter y análisis de resultados aplicada al sector y a la organización.</p>
+            <div class="downloads-list">
+                <a class="btn-download" href="descargas/5-diamante-de-porter.xlsx" download>⬇ Descargar: Diamante de Porter (Excel)</a>
+            </div>
+        </div>
+
+        <div class="company-card gap-block">
+            <p class="block-title">Perfil Estratégico de la Empresa</p>
+            <p class="company-desc">Herramienta Perfil Estratégico de la Empresa y análisis de resultados aplicada a Only Diesel S.A.S.</p>
+            <div class="downloads-list">
+                <a class="btn-download" href="descargas/6-perfil-estrategico-empresa.xlsx" download>⬇ Descargar: Perfil Estratégico de la Empresa (Excel)</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>Reporte Digital &nbsp;·&nbsp; <strong>Gestión Estratégica</strong> &nbsp;·&nbsp; CEIPA Business School &nbsp;·&nbsp; 2026</p>
+    <p>Empresa analizada: <strong>Only Diesel S.A.S.</strong> — Itagüí, Antioquia</p>
+</footer>
+
+<script>
+    function toggleMenu() { document.getElementById('navLinks').classList.toggle('open'); }
+    function closeMenu() { document.getElementById('navLinks').classList.remove('open'); }
+</script>
+</body>
+</html>

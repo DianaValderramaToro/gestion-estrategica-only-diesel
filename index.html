@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio · Gestión Estratégica · Only Diesel S.A.S.</title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+
+<nav>
+    <div class="nav-brand"><span class="dot"></span> Only Diesel S.A.S.</div>
+    <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active" onclick="closeMenu()">Inicio</a></li>
+        <li><a href="equipo.html" onclick="closeMenu()">Equipo Consultor</a></li>
+        <li><a href="organizacion.html" onclick="closeMenu()">Organización</a></li>
+        <li><a href="sector.html" onclick="closeMenu()">Sector Económico</a></li>
+        <li><a href="analisis.html" onclick="closeMenu()">Análisis Estratégico</a></li>
+        <li><a href="formulacion.html" onclick="closeMenu()">Formulación y Selección</a></li>
+        <li><a href="evaluacion.html" onclick="closeMenu()">Evaluación e Implementación</a></li>
+        <li><a href="referencias.html" onclick="closeMenu()">Referencias</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()" aria-label="Abrir menú"><span></span><span></span><span></span></div>
+</nav>
+
+<header class="hero">
+    <div class="hero-badge">Gestión Estratégica · 2026</div>
+    <h1>Reporte Digital<br>del Proyecto Consultor</h1>
+    <p>CEIPA Business School &nbsp;·&nbsp; Equipo de Consultoría Estratégica &nbsp;·&nbsp; Only Diesel S.A.S.</p>
+</header>
+
+<section>
+    <div class="section-header">
+        <span class="section-tag">Bienvenida</span>
+        <h2>Only Diesel S.A.S.</h2>
+        <p>Sitio web del proyecto consultor de Gestión Estratégica aplicado a Only Diesel S.A.S., empresa del sector de mantenimiento y comercialización de repuestos para vehículos diésel, ubicada en Itagüí, Antioquia.</p>
+    </div>
+
+    <div class="index-grid">
+        <a class="index-card" href="equipo.html">
+            <div class="company-card">
+                <div class="index-num">01 · Equipo</div>
+                <div class="index-title">Equipo Consultor</div>
+                <p class="index-desc">Perfiles profesionales de las y los integrantes del equipo, análisis del test de entrada y acuerdo grupal de trabajo.</p>
+            </div>
+        </a>
+        <a class="index-card" href="organizacion.html">
+            <div class="company-card">
+                <div class="index-num">02 · Empresa</div>
+                <div class="index-title">Organización</div>
+                <p class="index-desc">Identificación y caracterización de la unidad de análisis: reseña, perfil comercial, operación, misión, visión y valores.</p>
+            </div>
+        </a>
+        <a class="index-card" href="sector.html">
+            <div class="company-card">
+                <div class="index-num">03 · Entorno</div>
+                <div class="index-title">Sector Económico</div>
+                <p class="index-desc">Caracterización del sector económico e industrial: contexto internacional, regional y nacional.</p>
+            </div>
+        </a>
+        <a class="index-card" href="analisis.html">
+            <div class="company-card">
+                <div class="index-num">04 · Diagnóstico</div>
+                <div class="index-title">Análisis Estratégico</div>
+                <p class="index-desc">Herramientas de análisis: perfil estratégico del entorno, Diamante de Porter, perfil estratégico de la empresa y evaluación de recursos y capacidades.</p>
+            </div>
+        </a>
+        <a class="index-card" href="formulacion.html">
+            <div class="company-card">
+                <div class="index-num">05 · Estrategia</div>
+                <div class="index-title">Formulación y Selección de la Estrategia</div>
+                <p class="index-desc">Fase de formulación y selección de alternativas estratégicas para la organización.</p>
+            </div>
+        </a>
+        <a class="index-card" href="evaluacion.html">
+            <div class="company-card">
+                <div class="index-num">06 · Ejecución</div>
+                <div class="index-title">Evaluación e Implementación</div>
+                <p class="index-desc">Cronograma del proceso y fase de evaluación e implementación de la estrategia.</p>
+            </div>
+        </a>
+        <a class="index-card" href="referencias.html">
+            <div class="company-card">
+                <div class="index-num">07 · Bibliografía</div>
+                <div class="index-title">Referencias</div>
+                <p class="index-desc">Fuentes bibliográficas consultadas en el proyecto, en formato APA 7.ª edición.</p>
+            </div>
+        </a>
+    </div>
+</section>
+
+<footer>
+    <p>Reporte Digital &nbsp;·&nbsp; <strong>Gestión Estratégica</strong> &nbsp;·&nbsp; CEIPA Business School &nbsp;·&nbsp; 2026</p>
+    <p>Empresa analizada: <strong>Only Diesel S.A.S.</strong> — Itagüí, Antioquia</p>
+</footer>
+
+<script>
+    function toggleMenu() { document.getElementById('navLinks').classList.toggle('open'); }
+    function closeMenu() { document.getElementById('navLinks').classList.remove('open'); }
+</script>
+</body>
+</html>
